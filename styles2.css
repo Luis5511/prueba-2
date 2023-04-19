@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.907);
+}
+
+header {
+    display: flex;
+    background-color: rgba(6, 53, 240, 0.759);
+    min-width: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    border:3px solid rgba(33, 77, 252, 0.759);
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding: 30px;
+    font-weight: 600;
+
+}
+
+nav a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.titulo{
+   text-align: center;
+   border-bottom: 3px solid rgba(33, 77, 252, 0.759);
+   padding:20px;
+   color: rgb(0, 0, 142);
+}

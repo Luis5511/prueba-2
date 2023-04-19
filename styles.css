@@ -1,0 +1,61 @@
+body {
+    font-family:sans-serif;
+    margin: 0;
+    background-color:rgba(255, 255, 255, 0.907);
+}
+header{
+    display: flex;
+    background-color: rgba(6, 53, 240, 0.759);;
+    min-width: 70px ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+a { color:aliceblue;
+    text-decoration: none;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+nav a{
+    padding: 30px;
+    font-weight: 600;
+    
+
+}
+
+nav a:hover{
+    color:yellow;
+    cursor: pointer;
+}
+.articulos_paginas .articulos1 img{
+    width: 350px ;
+    height: 250px;
+    border: 2px solid rgb(57, 57, 57);
+    box-shadow: 2px 2px 5px;
+}
+.articulos_paginas .articulos1 {
+   position: relative;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   gap: 50px;
+   align-content: space-around;
+   
+}
+.articulos_paginas .articulos1 .articulo{
+    display: flex;
+    background-color: rgba(194, 194, 194, 0.775);
+}
+.articulos_paginas .articulos1 .articulo_seleccionado{
+    background-color: rgba(205, 205, 205, 0.847);
+    border: 4px solid gray;
+    border-radius: 10px;
+}
